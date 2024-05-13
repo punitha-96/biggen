@@ -10,20 +10,24 @@ function Header() {
         </div>
         <ul>
           <li>
-            <a href="#">Home</a>
+            <a href="/">Home</a>
           </li>
           <li>
-            <a href="#">About</a>
+            <a href="/about">About</a>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <a href="/contact">Contact</a>
           </li>
-          <button>
-            <a href="#">SignIn</a>
-          </button>
-          <button>
-            <a href="#">SignUp</a>
-          </button>
+          <li>
+            <button>
+              <a href="/signin">SignIn</a>
+            </button>
+          </li>
+          <li>
+            <button>
+              <a href="/signup">SignUp</a>
+            </button>
+          </li>
         </ul>
       </div>
     </nav>
