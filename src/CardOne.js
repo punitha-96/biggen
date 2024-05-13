@@ -22,7 +22,7 @@ function CardOne() {
           delicious Swiss cuisine and unwind in charming mountain villages. Your
           next unforgettable journey awaits!
         </p>
-        <a href="#">Discover More</a>
+        <a href="/discover">Discover More</a>
       </div>
     </div>
   );

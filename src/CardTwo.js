@@ -18,7 +18,7 @@ function CardTwo() {
           River and capture the essence of Parisian life with your camera. Let
           the City of Light ignite your passion and fuel your imagination.
         </p>
-        <a href="#">Discover More</a>
+        <a href="/discover">Discover More</a>
       </div>
     </div>
   );
