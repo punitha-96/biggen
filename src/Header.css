@@ -1,0 +1,59 @@
+.navbar {
+  position: absolute;
+  top: 5px; /* Add some padding from the top */
+  left: 0;
+  width: 100%;
+  background-color: transparent;
+  z-index: 2;
+  padding-top: 5px; /* Adjust as needed */
+}
+
+.navdiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  padding-right: 20px; /* Add some space before the logo image */
+}
+
+.logo img {
+  width: 150px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+li a {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 50px; /* Adjust the margin-right value as needed */
+  text-decoration: none;
+  margin-left: 70px; /* Adjust the margin-left value as needed */
+}
+
+button {
+  background-color: black;
+  margin-left: 20px; /* Adjust the margin-left value as needed */
+  margin-right: 20px; /* Adjust the margin-right value as needed */
+  border-radius: 10px;
+  padding: 10px;
+  width: 100px;
+}
+
+button a {
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  text-decoration: none;
+}
