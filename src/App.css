@@ -1,20 +1,25 @@
 /* App.css */
+
+/* Set basic styles for the application */
 .App {
   text-align: center;
   font-family: Arial, sans-serif;
   color: #333;
 }
 
+/* Header styles */
 .App-header {
   background-color: #282c34;
   padding: 20px;
   color: white;
 }
 
+/* Main content styles */
 .App-main {
   padding: 20px;
 }
 
+/* Footer styles */
 .App-footer {
   background-color: #282c34;
   padding: 10px;
@@ -23,26 +28,39 @@
   bottom: 0;
   width: 100%;
 }
+
+/* VideoPlayer styles */
+.VideoPlayer {
+  width: 100%; /* Set the width to 100% */
+}
+
+/* Card section styles */
 .card-section {
   display: flex; /* Use flexbox layout */
-  justify-content: space-around; /* Distribute space between cards */
+  justify-content: space-between; /* Distribute space between cards */
+}
+
+/* Card wrapper styles */
+.card-wrapper {
+  flex: 1; /* Allow cards to grow and occupy equal space */
+  width: 80%; /* Set width to 80% of the screen */
+  margin-left: 10%; /* Move cards slightly to the right on desktop */
 }
 
 .card {
-  width: 80%; /* Set width for each card */
-  /* Other card styles */
-}
-/* App.css */
-.App {
-  text-align: center;
+  width: 100%; /* Set the width to 100% of the card wrapper */
+  margin: 0 5px; /* Add equal margin between cards */
+  padding: 10px; /* Add padding to the cards */
 }
 
-.card-section {
-  padding: 20px;
-}
-
-@media (max-width: 768px) {
+/* Add media query for smaller screens */
+@media (max-width: 767px) {
   .card-section {
-    padding: 10px;
+    flex-direction: column; /* Stack cards vertically on mobile */
+  }
+
+  .card-wrapper {
+    width: 80%; /* Set width to 80% for mobile */
+    margin: 0 auto; /* Center the cards horizontally */
   }
 }

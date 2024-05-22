@@ -32,20 +32,16 @@ function App() {
             <VideoPlayer />
           </Col>
         </Row>
-        <Row>
-          <Col>
-            <Slider {...sliderSettings}>
-              <div>
-                <div className="card-section">
-                  <CardOne />
-                </div>
-              </div>
-              <div>
-                <div className="card-section">
-                  <CardTwo />
-                </div>
-              </div>
-            </Slider>
+        <Row className="my-3 justify-content-center">
+          <Col md={6} className="text-center mb-3 mb-md-0">
+            <div className="card-wrapper">
+              <CardOne />
+            </div>
+          </Col>
+          <Col md={6} className="text-center">
+            <div className="card-wrapper">
+              <CardTwo />
+            </div>
           </Col>
         </Row>
       </Container>
