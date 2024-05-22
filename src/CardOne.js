@@ -1,30 +1,33 @@
 import React from "react";
-import "./CardOne.css";
+import { Card, Button } from "react-bootstrap";
+import "./CardOne.css"; // For any custom styles
 
 function CardOne() {
   return (
-    <div className="card">
-      <img
+    <Card className="mb-4">
+      <Card.Img
+        variant="top"
         src="pexels-shkrabaanthony-4348403.jpg"
-        alt="Placeholder"
-        className="card-image"
+        alt="Experience Nature"
       />
-      <div className="card-content">
-        <h3>Experience Nature Like Never Before</h3>
-        <p>
+      <Card.Body>
+        <Card.Title>Experience Nature Like Never Before</Card.Title>
+        <Card.Text>
           Embark on an unforgettable journey into the heart of nature. Our
           expert guides will lead you through lush forests, winding trails, and
           breathtaking landscapes, allowing you to reconnect with the natural
-          world.Immerse yourself in the breathtaking landscapes of the Swiss
+          world. Immerse yourself in the breathtaking landscapes of the Swiss
           Alps. From snow-capped peaks to lush green valleys, every corner of
           Switzerland offers a new adventure. Experience the thrill of skiing
           down pristine slopes or hiking through picturesque trails. Indulge in
           delicious Swiss cuisine and unwind in charming mountain villages. Your
           next unforgettable journey awaits!
-        </p>
-        <a href="/discover">Discover More</a>
-      </div>
-    </div>
+        </Card.Text>
+        <Button variant="primary" href="/discover">
+          Discover More
+        </Button>
+      </Card.Body>
+    </Card>
   );
 }
 

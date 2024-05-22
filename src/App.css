@@ -32,3 +32,17 @@
   width: 80%; /* Set width for each card */
   /* Other card styles */
 }
+/* App.css */
+.App {
+  text-align: center;
+}
+
+.card-section {
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .card-section {
+    padding: 10px;
+  }
+}

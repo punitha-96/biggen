@@ -1,36 +1,32 @@
 import React from "react";
-import "./Header.css"; // Import CSS for styling
+import { Navbar, Nav, Button } from "react-bootstrap";
+import "./Header.css"; // Import CSS for any additional styling
 
 function Header() {
   return (
-    <nav className="navbar">
-      <div className="navdiv">
-        <div className="logo">
-          <img src="pexels-magda-ehlers-pexels-1337388.jpg" alt="Logo" />
-        </div>
-        <ul>
-          <li>
-            <a href="/">Home</a>
-          </li>
-          <li>
-            <a href="/about">About</a>
-          </li>
-          <li>
-            <a href="/contact">Contact</a>
-          </li>
-          <li>
-            <button>
-              <a href="/signin">SignIn</a>
-            </button>
-          </li>
-          <li>
-            <button>
-              <a href="/signup">SignUp</a>
-            </button>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    <Navbar bg="light" expand="lg" className="navbar">
+      <Navbar.Brand href="/">
+        <img
+          src="pexels-magda-ehlers-pexels-1337388.jpg"
+          alt="Logo"
+          className="navbar-logo"
+        />
+      </Navbar.Brand>
+      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Navbar.Collapse id="basic-navbar-nav">
+        <Nav className="ml-auto">
+          <Nav.Link href="/">Home</Nav.Link>
+          <Nav.Link href="/about">About</Nav.Link>
+          <Nav.Link href="/contact">Contact</Nav.Link>
+          <Button variant="outline-primary" href="/signin">
+            Sign In
+          </Button>
+          <Button variant="primary" href="/signup" className="ml-2">
+            Sign Up
+          </Button>
+        </Nav>
+      </Navbar.Collapse>
+    </Navbar>
   );
 }
 
