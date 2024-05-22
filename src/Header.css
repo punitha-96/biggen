@@ -11,7 +11,7 @@
 /* Increase logo size for larger screens */
 @media (min-width: 768px) {
   .navbar-brand img.navbar-logo {
-    height: 80px; /* Adjust the height as needed for desktop */
+    height: 70px; /* Adjust the height as needed for desktop */
   }
 }
 
@@ -26,4 +26,11 @@
 
 .button {
   margin-left: 10px;
+}
+
+/* Header.css */
+@media (min-width: 768px) {
+  .sign-up-button {
+    margin-left: 10px; /* Adjust the margin as needed for desktop */
+  }
 }
