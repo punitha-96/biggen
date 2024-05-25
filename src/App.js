@@ -5,13 +5,10 @@ import Header from "./Header";
 import CardOne from "./CardOne";
 import CardTwo from "./CardTwo";
 import { Container, Row, Col } from "react-bootstrap";
-
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 function App() {
-  // Slider settings
-
   return (
     <div className="App">
       <Container fluid>
