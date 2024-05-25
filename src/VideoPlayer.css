@@ -4,6 +4,9 @@
   width: 100vw; /* Use viewport width to cover the entire width */
   height: 100vh; /* Use viewport height to cover the entire height */
   overflow: hidden;
+  top: calc(50% - 20px); /* Adjust the top position */
+  left: calc(50% + 0px); /* Adjust the left position */
+  transform: translate(-50%, -50%);
 }
 
 .background-video {
