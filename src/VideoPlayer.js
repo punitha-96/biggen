@@ -6,7 +6,7 @@ function VideoPlayer() {
     <div className="video-container">
       {/* Video Player Code */}
       <video autoPlay loop muted playsInline className="background-video">
-        <source src="5657834-uhd_4096_2160_25fps.mp4" type="video/mp4" />
+        <source src="biggentech_video.mp4" type="video/mp4" />
       </video>
     </div>
   );

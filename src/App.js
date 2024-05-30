@@ -14,7 +14,7 @@ function App() {
       <Container fluid>
         <Row>
           <Col>
-            <Header />
+            {/* <Header /> */}
           </Col>
         </Row>
         <Row className="my-3">
@@ -22,6 +22,24 @@ function App() {
             <VideoPlayer />
           </Col>
         </Row>
+        <Row className="my-3">
+          <Col>
+            <h1
+              style={{
+                padding: "5%",
+                fontWeight: "700",
+                color: "#0D4779",
+              }}
+            >
+              <span style={{ color: "#AE262A" }}>BigGen Technologies</span> is a
+              diversified conglomerate driving advancements across multiple
+              sectors, including UAVs, sound and automation, electronics, AI and
+              cloud services, and aerospace components, all aimed at redefining
+              industries and enhancing quality of life.
+            </h1>
+          </Col>
+        </Row>
+
         <Row className="my-3 justify-content-center">
           <Col md={6} className="text-center mb-3 mb-md-0">
             <div className="card-wrapper">
